@@ -1,0 +1,1137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    
+}
+body{
+    font-family: "Roboto";
+}
+
+.header.header-active{
+    position: fixed;
+    width:100%;
+    top:0%;
+    background: hotpink;
+    z-index:1600;
+  
+}
+.header  .row .col-xl-4 .logo a{
+    position: absolute;
+    top:20px;
+    left:50px;
+ 
+ 
+  
+   font-size:28px;
+   color:#013a71;
+   font-weight: bold;
+   text-decoration: none;
+  
+    
+
+}
+.header  .row .col-xl-4 .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.header  .row .col-xl-4 .navbar ul li {
+    margin-left: 20px;
+    list-style: none;
+}
+.header  .row .col-xl-4 .navbar ul li a{
+  
+        font-size: 20px;
+        
+        color: rgb(20, 57, 91);
+        line-height: 1.2;
+        text-align: left;
+        text-decoration: none;
+       
+      
+      
+}
+.header  .row .col-xl-4 .fa-bars{
+    font-size:30px;
+    color:#d27514;
+    display: none;
+}
+.header .container .row .col-xl-4 .navbar ul li a:hover{
+    color:#2289ff;
+
+}
+.header  .row .col-xl-4 .btn .btn1{
+   
+        border-width: 1px;
+        border-color: rgb(112, 112, 112);
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+       
+        width: 120px;
+        height: 44px;
+        outline:none;
+       
+            font-size: 20px;
+           
+            color: rgb(48, 48, 48);
+            line-height: 1.2;
+            text-align: left;
+            margin-left: 6px;
+            margin-top: 15px;
+            
+          
+    
+      
+}
+.header  .row .col-xl-4 .btn .btn1 .fa-search{
+    color:#2289ff;
+    margin-left: 8px;
+}
+
+
+.header  .row .col-xl-4 .btn .btn2{
+  
+        border-width: 2px;
+        border-color: rgb(34, 137, 255);
+        border-style: solid;
+        background-color: rgb(34, 137, 255);
+      
+        width: 95px;
+        height: 54px;
+        margin-left: 40px;
+        outline:none;
+       
+            font-size: 20px;
+            font-family: "Montserrat";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.2;
+            text-align: center;
+            margin-left: 160px;
+            margin-top: 10px;
+           
+           
+}
+.search-form{
+    position: fixed;
+    top:20%;
+    left: 15%;
+    display: none;
+    z-index: 1300;
+   
+}
+.search-form.active{
+    display: block;
+}
+.search-form form{
+    width:1000px;
+    
+  
+}
+.search-form form input{
+    width: 40%;
+    border:2px solid #d27514;
+    outline:none;
+    padding-left: 20px;
+    color:#2289ff
+
+
+}
+.search-form form input::placeholder{
+    font-size:15px;
+    padding-left:20px ;
+}
+
+
+.login-form{
+   position: fixed;
+   top:20%;
+    right:15%;
+    display: none;
+    z-index: 1500;
+  
+}
+.login-form.active{
+    display: block;
+}
+.login-form form{
+    height:330px;
+    width:450px;
+    border:10px solid #013a71;
+    
+ 
+}
+.login-form form input{
+   height:30px;
+   width:300px;
+   margin-top: 25px;
+   margin-left: 20px;
+   padding-left: 20px;
+   outline: none;
+   border: 1px solid green;
+ 
+}
+.login-form form input::placeholder{
+  color:orangered;
+  font-size:15px;
+  padding-left: 20px;
+}
+.login-form form input:focus{
+    border:1px solid #2289ff;
+}
+.login-form form i{
+    position: absolute;
+    top:5%;
+    right:8%;
+    font-size:30px;
+    color:#d27514;
+}
+
+.home .container .row .col-xl-12 .box{
+    
+    border-radius: 76px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 31px 0px rgba(0, 0, 0, 0.14);
+   
+  
+    
+    width: 864px;
+    height: 300px;
+    margin-top: 50px;
+    
+
+}
+.home .container .row .col-xl-12 .box h3{
+   
+        font-size: 88px;
+      
+        color: rgb(34, 137, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        text-shadow: 0px 3px 7px rgba(255, 255, 255, 0.16);
+        padding-left: 45px;
+      
+      
+}
+.home .container .row .col-xl-12 .box h3 span{
+    color:#013a71;
+
+}
+.home .container .row .col-xl-12 .box p{
+ 
+       
+        color: rgb(48, 48, 48);
+        line-height: 1.2;
+       padding-left: 50px;
+       margin-top: 20px;
+      
+      
+} 
+.home .container .row .col-xl-12 .button{
+    display:flex;
+    align-items: center;
+    margin-top: 60px;
+   
+} 
+.home .container .row .col-xl-12 .button li{
+    list-style: none;
+    margin-left: 80px;
+  
+        font-size: 28px;
+        
+        color: rgba(48, 48, 48, 0.788);
+        font-weight: bold;
+        line-height: 1.2;
+       
+      
+}
+.home .container .row .col-xl-12 .button li.active,
+.home .container .row .col-xl-12 .button li:hover{
+ 
+     
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        width:90px;
+        height:40px;
+        text-align: center;
+        background: #2289ff;
+        border-radius:20px;
+        padding:0px 20px;
+      
+      
+
+}
+.home .container .row .col-xl-12 .box1 .container .row{
+    margin-top: 60px;
+}
+.home .container .row .col-xl-12 .box1 .container .row .col-xl-3 h2{
+   
+        border-radius: 9px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+       
+            font-size: 22px;
+       
+            color: rgba(141, 149, 152, 0.788);
+            line-height: 1.2;
+            text-align: center;
+           
+      
+      
+
+}
+.home .container .row .col-xl-12 .box1 .container .row .col-xl-3 p{
+   
+        font-size: 20px;
+     
+        color: rgba(24, 106, 165, 0.788);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+       margin-top: 40px;
+      
+}
+.home .container .row .col-xl-12 .box1 .container .row .col-xl-3 button{
+  
+        border-radius: 10px;
+        background-color: rgb(34, 137, 255);
+      
+        width: 212px;
+        height: 71px;
+     
+      
+  
+        font-size: 32px;
+        font-family: "NotoSansCJKkr";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        border:none;
+        outline:none;
+     
+}
+.about .container .row .col-xl-12 h1{
+  
+        font-size: 48px;
+       
+        color: rgb(20, 57, 91);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        text-shadow: 0px 3px 7px rgba(255, 255, 255, 0.16);
+        margin-top: 60px;
+      
+}
+.about .container .row .col-xl-12 h1 span{
+    color:#013a71;
+}
+.about .container .row .col-xl-12 p{
+   
+        font-size: 24px;
+      
+        color: rgba(141, 149, 152, 0.788);
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 40px;
+     
+      
+}
+.about .container .row .col-xl-3 img{
+    height:150px;
+    width:200px;
+    object-fit: cover;
+    margin-bottom: 15px; 
+   
+  
+        border-radius: 20px;
+      
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 3px 35px 0px rgba(24, 106, 165, 0.1);  
+     
+      
+
+} 
+.about .container .row:nth-child(2){
+    display: none;
+}
+.about .container .row:nth-child(2).active{
+    display:block;
+  
+}
+.about .container .row .col-xl-12 button{
+   
+        border-radius: 20px;
+        background-color: rgb(24, 106, 165);
+      
+        width: 591px;
+        height: 96px;
+       
+            font-size: 28px;
+           
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            text-align: center;
+            margin-top: 70px;
+            border:none;
+            outline:none;
+            
+     
+      
+} 
+.featured{
+    position: relative;
+}
+
+  
+.featured .container .row .col-xl-12 h1{
+    font-size: 48px;
+       
+    color: rgb(20, 57, 91);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 3px 7px rgba(255, 255, 255, 0.16);
+    margin-top: 60px;
+
+}
+.featured .container .row .col-xl-12 p{
+    font-size: 24px;
+      
+    color: rgba(141, 149, 152, 0.788);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.featured .container .row .col-xl-12 .slider-container .card {
+    width:350px;
+    height:650px;
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+   
+    
+}
+
+.featured .container .row .col-xl-12 .slider-container .card img{
+   position: relative;
+}
+.featured .container .row .col-xl-12 .slider-container .card .btn3{
+    position:absolute;
+    top:3%;
+    left:5%;
+    height:40px;
+    width:100px;
+    
+        font-size: 15px;
+     
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        border:none;
+        outline:none;
+        background:#8c8c8c ;
+        border-radius: 5%;
+       
+      
+}
+.featured .container .row .col-xl-12 .slider-container .card .btn4{
+    position:absolute;
+    top:3%;
+    right:5%;
+    height:40px;
+    width:100px;
+    font-size: 15px;
+     
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    border:none;
+    outline:none;
+    background:#78c720 ;
+    border-radius: 5%;
+
+}
+.featured .container .row .col-xl-12 .slider-container .card h3{
+  
+        font-size: 17px;
+      
+        color: rgba(0, 0, 0, 0.502);
+        line-height: 1.2;
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 15px;
+      
+      
+}
+.featured .container .row .col-xl-12 .slider-container .card h4{
+  
+        font-size: 25px;
+       
+        color: rgb(30, 98, 232);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 15px;
+      
+    
+      
+}
+.featured .container .row .col-xl-12 .slider-container .card h5{
+         font-size: 22px;
+        font-family: "Sen";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 15px;
+      
+      
+}
+.featured .container .row .col-xl-12 .slider-container .card p{
+       font-size: 16px;
+       
+        color: rgba(0, 0, 0, 0.502);
+       
+        text-align: left;
+        padding:5px 6px;
+
+      
+}
+.featured .container .row .col-xl-12 .slider-container .card .box1{
+    float:left;
+}
+.featured .container .row .col-xl-12 .slider-container .card .child1{
+    float:left;
+}
+
+
+.featured .container .row .col-xl-12 .slider-container .card .child1 h6{
+  
+        font-size: 14px;
+       
+        color: rgba(0, 0, 0, 0.502);
+        line-height: 1.2;
+        text-align: left;
+       
+      
+
+}
+
+.featured .container .row .col-xl-12 .slider-container .card .child2 h6{
+  
+        font-size: 14px;
+       
+        color: rgba(0, 0, 0, 0.502);
+        line-height: 1.2;
+        text-align: left;
+       
+      
+
+}
+
+.featured .container .row .col-xl-12 .slider-container .card .child3 h6{
+  
+        font-size: 14px;
+       
+        color: rgba(0, 0, 0, 0.502);
+        line-height: 1.2;
+        text-align: left;
+       
+      
+
+}
+.featured .container .row .col-xl-12 .slider-container .card .icon{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+
+}
+.featured .container .row .col-xl-12 .slider-container .card .icon i{
+  
+        border-radius: 6px;
+        background-color: rgb(235, 235, 235);
+      font-size: 15px;
+      color: orangered;
+    
+
+}
+.featured .owl-carousel .owl-nav button.owl-prev{
+    position:absolute;
+    top:15%;
+    left:-15px;
+    height:50px;
+    width:50px;
+    background: #ffffff;
+    color:#2289ff;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px dotted #013a71;
+    outline: none;
+  
+}
+.featured .owl-carousel .owl-nav button.owl-next{
+    position:absolute;
+    top:15%;
+    right:-15px;
+    height:50px;
+    width:50px;
+    background: #ffffff;
+    color:#2289ff;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px dotted #013a71;
+    outline: none;
+  
+
+}
+.plan{
+    background: #f4f7fa;
+    padding-bottom:90px;
+
+}
+.plan h2{
+
+        font-size: 48px;
+       
+        color: rgb(20, 57, 91);
+        font-weight: bold;
+        line-height: 1.2;
+       
+        text-shadow: 0px 3px 7px rgba(255, 255, 255, 0.16);
+       padding-top: 40px;
+      
+}
+.plan .container .row .col-xl-12 .controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:30px;
+}
+.plan .container .row .col-xl-12 .controls li{
+    list-style: none;
+  
+        font-size: 25px;
+      
+        color: rgba(0, 0, 0, 0.788);
+        line-height: 1.2;
+     
+}
+.plan .container .row .col-xl-12 .controls li:hover{
+    color:#2289ff;
+    text-decoration: underline;
+    transition: all .1s ease-in;
+}
+.plan .container .row .col-xl-12 img{
+    width:450px;
+    height:350px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.plan .container .row .col-xl-12 .container .row .col-xl-6 .box {
+    width:400px;
+    height:300px;
+    background: #013a71;
+    margin-top: 30px;
+}
+
+.plan .container .row .col-xl-12 .container .row .col-xl-6 .box h3{
+  
+        font-size: 33px;
+     
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+      
+       text-align:center;
+       padding: 20px 15px;
+     
+    
+      
+}
+.plan .container .row .col-xl-12 .container .row .col-xl-6 .box p{
+   
+        font-size: 15px;
+    
+        color: rgb(255, 255, 255);
+       
+        text-align: left;
+        letter-spacing: 0.9px;
+        padding: 0px 20px;
+ 
+      
+}
+.dream{
+    padding-top:50px;
+    padding-bottom: 100px;
+
+}
+.dream .container .row .col-xl-6 h2{
+    
+        font-size: 60px;
+       
+        color: rgb(20, 57, 91);
+        font-weight: bold;
+        line-height: 1.883;
+        text-align: left;
+        text-shadow: 0px 3px 7px rgba(255, 255, 255, 0.16);
+        
+      
+ 
+}
+.dream .container .row .col-xl-6 h2 span{
+    color:#2289ff;
+}
+.dream .container .row .col-xl-6 button{
+
+            border-radius: 20px;
+            background-color: rgb(24, 106, 165);
+            box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+            
+            width: 342px;
+            height: 108px;
+        
+                font-size: 28px;
+            
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            text-align:center;
+            border:none;
+            outline:none;
+          
+          
+}
+.dream .container .row .col-xl-6 .image1{
+    width:500px;
+    height:350px;
+  
+
+  
+    transform:translateZ(5rem);
+    border:10px solid  rgb(255, 255, 255);;
+    border-radius: 20px;
+    
+    box-shadow: 0px 3px 31px 0px rgba(0, 0, 0, 0.14);
+    margin: 0;
+    height: auto;
+  
+}
+.dream .container .row .col-xl-6 .image2{
+    position: absolute;
+    z-index: 1300;
+    top: 70%;
+    left:-15%;
+    border-radius:10px;
+    margin: 0;
+    height:auto;
+    
+ 
+}
+.list{
+    background: #f4f7fa;
+}
+.list .container .row .col-xl-12 h3{
+ 
+        font-size: 25px;
+      
+        color: rgb(34, 137, 255);
+        font-weight: bold;
+        text-decoration: underline;
+        line-height: 1.2;
+       
+
+}
+.list .container .row .col-xl-12 h5{
+   
+        font-size: 48px;
+       
+        color: rgb(20, 57, 91);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: center;
+        text-shadow: 0px 3px 7px rgba(255, 255, 255, 0.16);
+     
+       
+}
+.list .container .row:nth-child(1){
+    margin-top: 50px;
+}
+.list .container .row .col-xl-3 .box{
+    
+        border-radius: 12px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 3px 35px 0px rgba(24, 106, 165, 0.1);
+        
+        width: 276px;
+        height: 229px;
+     margin-bottom:30px;
+}
+.list .container .row .col-xl-3 .box i{
+    
+        background-color: #f4f7fa;
+        width: 62px;
+        height: 62px;
+       font-size:20px;
+       position: absolute;
+       top:10%;
+       left:45%;
+       border-radius: 50%;
+       font-size: 30px;
+       color:#2289ff;
+       text-align:center;
+       line-height: 62px;
+      
+}
+.list .container .row .col-xl-3 .box:hover{
+    background: #2289ff;
+}
+
+
+
+.list .container .row .col-xl-3 .box h4{
+    
+        font-size: 24px;
+      
+        color: rgba(20, 57, 91, 0.788);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        position: absolute;
+        top:40%;
+       left: 25%;
+    
+      
+}
+.faq{
+    padding-top:80px;
+}
+.faq .container .row .col-xl-12 .accordion{
+   
+        border-width: 1px;
+        border-color: rgb(24, 106, 165);
+        border-style: solid;
+        border-radius: 32px;
+        background-color: rgb(255, 255, 255);
+      
+        width: 900px;
+        height: 198px;
+        margin-bottom:30px ;
+    
+}
+.faq .container .row .col-xl-12 .accordion .accordion-header{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.faq .container .row .col-xl-12 .accordion .accordion-header .container .row .col-xl-10 h3 {
+  
+        font-size: 20px;
+       
+        color: rgba(20, 57, 91, 0.788);
+        line-height: 1.2;
+        text-align: left;
+      
+}
+.faq .container .row .col-xl-12 .accordion .accordion-header .container .row .col-xl-2 .icon{
+   
+        font-size: 20px;
+      
+      color:#013a71;
+
+}
+.faq .container .row .col-xl-12 .accordion .accordion-body{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.faq .container .row .col-xl-12 .accordion .accordion-body p{
+    font-size: 15px;
+      
+    color: rgb(141, 149, 152);
+  
+    text-align: left;
+
+}
+.counting{
+    background: #f4f7fa;
+    padding-top:70px;
+    padding-bottom: 50px;
+}
+.counting .container .row .col-xl-3 .counter .number{
+    font-size:30px;
+    color:#2289ff;
+} 
+.counting .container .row .col-xl-3 .counter h3{
+    font-size:25px;
+    color:#013a71;
+    margin-top: 15px;
+} 
+
+.footer{
+    background: #14395b;
+    padding-top: 60px;
+    padding-bottom:30px;
+}
+.footer .container .row .col-xl-3 p{
+  
+        font-size: 14px;
+       
+        color: rgb(255, 255, 255);
+        line-height: 2;
+        text-align: left;
+      
+      
+}
+
+.footer .container .row .col-xl-3 h3{
+   
+        font-size: 14px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 2.929;
+        text-align: left;
+      
+      
+
+}
+.footer .container .row .col-xl-3 .icon{
+    margin-left: 6px;
+}
+.footer .container .row .col-xl-3 .icon i{
+    
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+      
+       
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size:20px;
+        text-align: center;
+        color:#2289ff;
+     
+          
+            
+          
+     
+       
+}
+.footer .container .row .col-xl-3 .icon i:hover{
+    background-color: #2289ff;
+    color:#ffffff;
+    transition: .2s ease-out;
+
+}
+.footer .container .row .col-xl-3 h3:hover{
+    color:#d27514;
+}
+.footer .container .row .col-xl-3 li{
+    list-style:none;
+   
+        font-size: 14px;
+     
+        color: rgb(255, 255, 255);
+        line-height: 2.929;
+        text-align: left;
+      
+      
+}
+.footer .container .row .col-xl-3 li:hover{
+    color:#2289ff;
+}
+.copy{
+    background: #0b2f50;
+    padding:20px;
+    padding-bottom: 20px;
+}
+.copy .container .row .col-xl-6 p{
+    
+        font-size: 14px;
+      
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+      margin-top: 8px;
+      
+      
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+
+    .header  .row .col-xl-4 .fa-bars{
+        display: block;
+    }
+    
+.header  .row .col-xl-4 .navbar ul {
+    position:fixed;
+    top:-100rem;
+    left:35%;
+    display: flex;
+    flex-flow:column;
+    background:#ffffff;
+    border: 3px dotted #2289ff;
+    width:50%;
+    height:75%;
+    z-index: 1450;
+
+    
+    
+ 
+    
+
+}
+.dream .container .row .col-xl-6 .image2{
+    position: absolute;
+    z-index: 1300;
+    top: 30%;
+    left:-15%;
+    border-radius:10px;
+    margin: 0;
+    height:auto;
+    
+ 
+}
+.faq .container .row .col-xl-12 .accordion{
+  width:750px;
+}
+
+}
+
+.header  .row .col-xl-4 .navbar ul.active {
+    top:30%;
+
+}
+.header  .row .col-xl-4 .navbar ul li{
+    margin-top: 20px;
+   
+}
+.header  .row .col-xl-4 .navbar ul li a{
+    display: block;
+    font-size: 30px;
+    border-bottom: 1px dashed #d27514;
+}
+
+.fa-times{
+    transform:rotate(360deg);
+}
+.home .container .row .col-xl-12 .box{
+  box-shadow: none;
+
+}
+.counting .container .row .col-xl-3 .counter{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px){
+    .home .container .row .col-xl-10 .box{
+        width: 450px;
+    }
+    .home .container .row .col-xl-12 .box h3{
+        font-size: 50px;
+    }
+    .faq .container .row .col-xl-12 .accordion{
+        width:600px;
+      }
+
+   
+
+
+}
+
+
+
+@media screen and (max-width:600px){
+    .login-form form {
+     width: 250px;
+    }
+    .login-form form input{
+        width:200px;
+    }
+    .faq .container .row .col-xl-12 .accordion{
+        width:500px;
+        height:250px;
+      }
+
+
+
+}
+
+
+
+
+@media screen and (max-width:500px){
+   
+    .search-form form input{
+        width: 20%;
+    }
+    .home .container .row .col-xl-12 .box{
+        width: 300px;
+    }
+    .faq .container .row .col-xl-12 .accordion{
+        width:400px;
+        height:250px;
+      }
+
+
+
+     
+ 
+  
+    
+  
+
+}
+@media screen and (max-width:400px){
+    .faq .container .row .col-xl-12 .accordion{
+        width:350px;
+        height:250px;
+      }
+
+}
+@media screen and (max-width:350px){
+    .login-form{
+        position: absolute;
+        right:0%
+    }
+    .faq .container .row .col-xl-12 .accordion{
+        width:300px;
+        height:300px;
+      }
+
+}
